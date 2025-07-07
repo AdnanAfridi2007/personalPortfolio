@@ -3,3 +3,4 @@
 2025-07-01T16:43:23+05:00 - refactor: clean up unused CSS classes
 2025-07-03T18:45:01+05:00 - refactor: extract ProjectCard into reusable component
 2025-07-05T12:49:41+05:00 - feat: implement project grid with filtering
+2025-07-07T12:20:46+05:00 - style: adjust font sizes for readability
