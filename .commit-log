@@ -18,3 +18,4 @@
 2025-08-02T11:30:12+05:00 - fix: image loading performance with lazy load
 2025-08-05T10:16:22+05:00 - feat: add hero section with animated typing
 2025-08-07T14:46:18+05:00 - style: improve spacing on About section
+2025-08-08T16:30:49+05:00 - fix: mobile menu toggle on small screens
