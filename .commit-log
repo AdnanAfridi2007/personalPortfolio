@@ -23,3 +23,4 @@
 2025-08-10T16:15:32+05:00 - chore: add favicon and meta tags
 2025-08-13T11:02:55+05:00 - style: improve spacing on About section
 2025-08-16T10:07:20+05:00 - chore: update dependencies and lockfile
+2025-08-18T10:52:42+05:00 - refactor: extract ProjectCard into reusable component
