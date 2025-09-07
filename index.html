@@ -4,7 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <title>Adnan Afridi — Full Stack Web Developer Portfolio</title>
+    <meta name="description" content="Full Stack web developer based in Peshawar. Explore projects, skills, and services in web development, UI/UX, and mobile apps.">
+    <link rel="icon" href="./images/logo.png" type="image/png">
+    <meta property="og:title" content="Adnan Afridi — Full Stack Web Developer">
+    <meta property="og:description" content="Explore my latest work, services, and contact details.">
+    <meta property="og:image" content="./images/profile-img.png">
+    <meta property="og:type" content="website">
+    <meta name="theme-color" content="#000000">
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./tailwind.config.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +21,10 @@
 
 <body class="overflow-x-hidden font-Outfit leading-8 dark:bg-darkTheme dark:text-white">
 
+    <a href="#about" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-black text-white px-3 py-1 rounded">Skip to content</a>
+
     <div class="fixed top-0 right-0 w-11/12 -z-10 translate-y-[-80%] dark:hidden">
-        <img src="/images/header-bg-color.png" alt="" class="w-full">
+        <img src="./images/header-bg-color.png" alt="" class="w-full" loading="lazy">
     </div>
 
 
@@ -71,18 +80,18 @@
     <!-- Header -->
 
     <div class="w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-4">
-        <img src="/images/profile-img.png" alt="" class="rounded-full w-32 ">
+        <img src="./images/profile-img.png" alt="Profile photo" class="rounded-full w-32 ">
         <h3 class="flex items-center gap-2 text-xl md:text-2xl mb-3 font-Ovo">Hi! I'm Adnan Afridi <img
-                src="./images/hand-icon.png" alt=""></h3>
+                src="./images/hand-icon.png" alt="" loading="lazy"></h3>
         <h1 class="text-3xl sm:text-6xl lg:text-[66px] font-Ovo">Full Stack web developer based in Peshawar.</h1>
-        <p class="max-w-2xl mx-auto font-Ovo">I am a Full Stack developer from Peshawar, Pakistan with 2years of
+        <p class="max-w-2xl mx-auto font-Ovo">I am a Full Stack developer from Peshawar, Pakistan with 2 years of
             experience in
-            Frontend and 1 year of experience in Backend</p>
+            Frontend and 1 year of experience in Backend.</p>
 
         <div class="flex flex-col sm:flex-row items-center gap-4 mt-4">
             <a href="#contact"
                 class="px-10 py-3 border rounded-full bg-gradient-to-r from-[#b820e6] to-[#da7d20] text-white flex items-center gap-2 dark:border-transparent">Contact
-                me <img src="./images/right-arrow-white.png " alt="" class="w-4"></a>
+                me <img src="./images/right-arrow-white.png" alt="" class="w-4" loading="lazy"></a>
 
             <a href="./images/resume.JPG" download
                 class="px-10 py-3 border rounded-full border-gray-500  flex items-center gap-2 bg-white dark:text-black">my
@@ -136,7 +145,7 @@
                         <img src="./images/edu-icon-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
 
                         <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Education</h3>
-                        <p class="text-gray-600 text-sm dark:text-white/80">C.S student - Government Collage Peshawar</p>
+                        <p class="text-gray-600 text-sm dark:text-white/80">C.S student - Government College Peshawar</p>
                     </li>
 
                     <li class="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black
@@ -147,7 +156,7 @@
                         <img src="./images/project-icon-dark.png" alt="" class="w-7 mt-3 hidden dark:block">
 
                         <h3 class="my-4 font-semibold text-gray-700 dark:text-white">Projects</h3>
-                        <p class="text-gray-600 text-sm dark:text-white/80">Built more then 5 projects</p>
+                        <p class="text-gray-600 text-sm dark:text-white/80">Built more than 5 projects</p>
                     </li>
                 </ul>
                 <h4 class="my-6 to-gray-700 font-Ovo dark:text-white/80">Tools i use</h4>
@@ -184,51 +193,51 @@
 
     <!-- ---------------  services  ------------- -->
     <div id="services" class="w-full px-[12%] py-10 scroll-mt-20">
-        <h4 class="text-center mb-2 text-lg font-Ovo">What i offer</h4>
+        <h4 class="text-center mb-2 text-lg font-Ovo">What I offer</h4>
         <h2 class="text-center text-5xl font-Ovo">My services</h2>
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">I am a Full Stack developer from Peshawar, Pakistan
             with
-            2years of experience in
+            2 years of experience in
             Frontend and 1 year of experience in Backend</p>
 
         <div class="grid grid-cols-auto gap-6 my-10 ">
             <div
-                class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-lightHover hover:-translate-y-1 duration-500
+                class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500
                 dark:hover:bg-darkHover dark:hover:shadow-white">
                 <img src="./images/web-icon.png" alt="" class="w-10">
                 <h3 class="text-lg my-4 text-gray-700 dark:text-white">Web design</h3>
-                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Web development is the procss of building, programming...</p>
+                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Web development is the process of building and programming digital experiences...</p>
                 <a class="flex items-center gap-2 text-sm mt-5" href="">Read more <img src="./images/right-arrow.png"
                         alt="" class="w-4"></a>
             </div>
 
 
             <div
-                class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-lightHover hover:-translate-y-1 duration-500
+                class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500
                 dark:hover:bg-darkHover dark:hover:shadow-white">
                 <img src="./images/mobile-icon.png" alt="" class="w-10">
                 <h3 class="text-lg my-4 text-gray-700 dark:text-white">Mobile app</h3>
-                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Web development is the procss of building, programming...</p>
+                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Mobile app development with performant, scalable architectures...</p>
                 <a class="flex items-center gap-2 text-sm mt-5" href="">Read more <img src="./images/right-arrow.png"
                         alt="" class="w-4"></a>
             </div>
 
             <div
-                class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-lightHover hover:-translate-y-1 duration-500
+                class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500
                 dark:hover:bg-darkHover dark:hover:shadow-white">
                 <img src="./images/ui-icon.png" alt="" class="w-10">
                 <h3 class="text-lg my-4 text-gray-700 dark:text-white">UI/ UX design</h3>
-                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Web development is the procss of building, programming...</p>
+                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Human-centered UI/UX with clean, consistent visuals...</p>
                 <a class="flex items-center gap-2 text-sm mt-5" href="">Read more <img src="./images/right-arrow.png"
                         alt="" class="w-4"></a>
             </div>
 
             <div
-                class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-lightHover hover:-translate-y-1 duration-500
+                class="border border-gray-400 rounded-lg px-8 py-12 hover:shadow-black cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500
                 dark:hover:bg-darkHover dark:hover:shadow-white">
                 <img src="./images/graphics-icon.png" alt="" class="w-10">
                 <h3 class="text-lg my-4 text-gray-700 dark:text-white">Graphics design</h3>
-                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Web development is the procss of building, programming...</p>
+                <p class="text-sm text-gray-600 leading-5 dark:text-white/80">Brand-focused graphics and assets for digital products...</p>
                 <a class="flex items-center gap-2 text-sm mt-5" href="">Read more <img src="./images/right-arrow.png"
                         alt="" class="w-4"></a>
             </div>
@@ -254,11 +263,11 @@
                     class="bg-white w-10/12 rounded-md absolute bottom-5 left-1/2 -translate-x-1/2 py-3 px-5 flex items-center justify-between duration-500 group-hover:bottom-7">
 
                     <div>
-                        <h2>FulStack project</h2>
+                        <h2>Full Stack project</h2>
                         <p class="text-sm text-gray-700">Web Design</p>
                     </div>
                     <div
-                        class="border rounded-full border-black w-9 aspect-square  flex items-center justify-center shadow[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        class="border rounded-full border-black w-9 aspect-square  flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
                         <img src="./images/send-icon.png" alt="" class="w-5">
                     </div>
                 </div>
@@ -274,7 +283,7 @@
                         <p class="text-sm text-gray-700">mobile app</p>
                     </div>
                     <div
-                        class="border rounded-full border-black w-9 aspect-square  flex items-center justify-center shadow[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        class="border rounded-full border-black w-9 aspect-square  flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
                         <img src="./images/send-icon.png" alt="" class="w-5">
                     </div>
                 </div>
@@ -290,7 +299,7 @@
                         <p class="text-sm text-gray-700">Web Design</p>
                     </div>
                     <div
-                        class="border rounded-full border-black w-9 aspect-square  flex items-center justify-center shadow[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        class="border rounded-full border-black w-9 aspect-square  flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
                         <img src="./images/send-icon.png" alt="" class="w-5">
                     </div>
                 </div>
@@ -306,7 +315,7 @@
                         <p class="text-sm text-gray-700">UI/UX Design</p>
                     </div>
                     <div
-                        class="border rounded-full border-black w-9 aspect-square  flex items-center justify-center shadow[2px_2px_0_#000] group-hover:bg-lime-300 transition">
+                        class="border rounded-full border-black w-9 aspect-square  flex items-center justify-center shadow-[2px_2px_0_#000] group-hover:bg-lime-300 transition">
                         <img src="./images/send-icon.png" alt="" class="w-5">
                     </div>
                 </div>
@@ -325,7 +334,7 @@
     <div id="contact"
         class="w-full px-[12%] py-10 scroll-mt-20  bg-[url('./images/footer-bg-color.png')] bg-no-repeat  bg-center
         dark:bg-none">
-        <h4 class="text-center mb-2 text-lg font-Ovo">connect with me</h4>
+        <h4 class="text-center mb-2 text-lg font-Ovo">Connect with me</h4>
         <h2 class="text-center text-5xl font-Ovo">Get in touch</h2>
         <p class="text-center max-w-2xl mx-auto mt-5 mb-12 font-Ovo">I'd love to hear from you If you have any
             questions,
@@ -345,7 +354,7 @@
                 class="w-full p-4 outline-none border-[0.5px] border-gray-400 rounded-md bg-white mb-6 dark:bg-darkHover/30 dark:border-white/90" required name="message"></textarea>
             <button
                 class="py-3 px-8 w-max flex items-center justify-between gap-2 bg-black/80 text-white rounded-full mx-auto hover:bg-black duration-500
-                dark:bg-transparent dark:border[0.5px] dark:hover:bg-darkHover
+                dark:bg-transparent dark:border-[0.5px] dark:hover:bg-darkHover
                 ">Submit
                 now
                 <img src="./images/right-arrow-white.png" alt="" class="w-4">
@@ -367,9 +376,9 @@
         <div class="text-center sm:flex items-center justify-between border-t border-gray-400 mx-[10%] mt-12 py-6">
             <p>&copy; 2024 Adnan Afridi. All rights reserved.</p>
             <ul class="flex items-center gap-10 justify-center mt-4 sm:mt-0">
-                <li><a href="https://www.linkedin.com/in/adnan-afridi-721543316">LinkedIn</a></li>
-                <li><a href="https://github.com/AdnanAfridi2007">GitHub</a></li>
-                <li><a href="https://www.instagram.com/adnan.afridi.1999/">Instagram</a></li>
+                <li><a href="https://www.linkedin.com/in/adnan-afridi-721543316" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+                <li><a href="https://github.com/AdnanAfridi2007" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://www.instagram.com/adnan.afridi.1999/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
             </ul>
         </div>
     </div>
